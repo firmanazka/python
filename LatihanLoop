@@ -1,0 +1,17 @@
+sisi = 4
+
+print("Äwal for")
+count = 1
+for i in range(sisi):
+    print("*"*count)
+    count += 1
+
+print ("akhir dari for")
+count = 1
+while True:
+    print("*"*count)
+    count += 1
+    if count > sisi:
+        break
+
+print("akhir while")
